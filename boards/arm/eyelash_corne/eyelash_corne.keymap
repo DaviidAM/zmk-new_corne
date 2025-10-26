@@ -12,13 +12,6 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
-        shiftmod: shiftmod {
-            compatible = "zmk,behavior-mod-morph";
-            label = "SHIFT_MOD";
-            #binding-cells = <0>;
-            bindings = <&kp A>, <&kp EXCL>;   // Normal = “a”, Shift = “!”
-            mods = <(MOD_LSFT|MOD_RSFT)>;     // Shift izquierdo o derecho
-        };
     };
 
     rgb_encoder: rgb_encoder {
