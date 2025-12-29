@@ -73,10 +73,10 @@ layers:
   - PLAY PAUSE
   - $$mdi:skip-next$$
   - '?'
-  - '@'
+  - '&'
   - {t: '''', s: '"'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '@'
+  - '#'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -89,7 +89,7 @@ layers:
   - '!'
   - '|'
   - $
-  - '#'
+  - {t: Gui+Sft+2, s: Gui+Sft+@}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -106,14 +106,14 @@ layers:
   - HOME
   - PgUp
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - '*'
   - {t: /, s: '?'}
+  - '7'
+  - '8'
+  - '9'
+  - {t: '-', s: _}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-tab$$
+  - '>'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -121,24 +121,24 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - '*'
   - '4'
-  - {t: '5', s: '%'}
+  - '5'
   - '6'
   - +
-  - {t: '-', s: _}
   - ^
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - <
   - (
   - )
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - '0'
   - '1'
   - '2'
-  - KP 3
-  - KP 0
+  - '3'
   - {t: '=', s: +}
   - '%'
   - {t: '$$mdi:transfer$$', type: trans}
