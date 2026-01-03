@@ -147,6 +147,3 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-combos:
-- p: [1, 15, 29]
-  k: '&soft_off'
