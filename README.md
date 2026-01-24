@@ -30,5 +30,7 @@ If you need a 3D model of this keyboard, email `380465425@qq.com`.
 3. Modify keymap in [Map Editor Website](https://nickcoutsos.github.io/keymap-editor/).
 4. Download zip file from Build Github action in your forked repo.
 5. Drag and drop files to keyboard board.
-    1. Drag and drop reset file.
-    2. Drag and drop correct side file (left or right). 
+    1. Connect keyboard with usb to PC and click two consecutives times to the button in the back to see keyboard as a usb.
+    2. Drag and drop reset file.
+    3. Repeat step 1
+    4. Drag and drop correct side file (left or right). sslkkññkllññ
